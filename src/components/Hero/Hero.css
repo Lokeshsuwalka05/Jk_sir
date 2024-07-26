@@ -1,0 +1,93 @@
+/* src/SocialMediaButtons.css */
+.social-media-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.social-media-buttons a {
+ 
+  font-size: 2em;
+  transition: color 0.3s;
+}
+
+.social-media-buttons a:hover {
+  color: #0073b1; /* LinkedIn color */
+}
+
+.social-media-buttons a:hover:nth-child(2) {
+  color: #1da1f2; /* Twitter color */
+}
+
+.social-media-buttons a:hover:nth-child(3) {
+  color: #e4405f; /* Instagram color */
+}
+
+.social-media-buttons a:hover:nth-child(4) {
+  color: #e7082a; /* Facebook color */
+}
+
+.social-media-buttons a:hover:nth-child(5) {
+  color: #ff0000; /* YouTube color */
+}
+
+.social-media-buttons a:hover:nth-child(6) {
+  color: #dd4b39; /* Email color */
+}
+
+/* .container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .image {
+    flex: 1;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .text {
+      padding-left: 0;
+      padding-top: 20px;
+    }
+   
+  }
+ */
+
+ hr {
+  height: 0px;
+  border: none;
+  border-top: 1px solid #333333;
+}
+
+.acolor
+{
+-webkit-text-fill-color:#737373;
+}
+.acolor a:hover {
+  -webkit-text-fill-color: white;
+}
+.hp{
+background: #ACACAC;
+background: linear-gradient(to top right, #ACACAC 0%, #E8E8E8 48%, #9C9C9C 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.fc{
+  -webkit-text-fill-color: #ACACAC;
+}

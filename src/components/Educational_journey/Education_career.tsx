@@ -149,8 +149,8 @@ const EducationJourney: React.FC = () => {
       <div className={styles.SectionTitle} id="my-journey">
         <p onClick={handleCareerClick}>Professional Career</p>
         
-        <p className={showCareer ? '' : styles.hidden} onClick={handleEducationClick}>Education Career</p>
-        <p className={showCareer ? '' : styles.hidden} onClick={handleStartupClick}>Startup Incubation</p>
+        <p  onClick={handleEducationClick}>Education Career</p>
+        <p  onClick={handleStartupClick}>Startup Incubation</p>
      
       </div>
 

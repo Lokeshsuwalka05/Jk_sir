@@ -168,6 +168,7 @@
   margin-bottom: 50px;
   cursor: pointer;
   max-width: 100vw;
+  position: relative;
 }
 
 .SectionTitle p{
@@ -189,6 +190,7 @@
 
 }
 
+
 .SectionTitle p:first-child {
   margin: 0 10px;
   background: linear-gradient(84deg,#4646F9,#9130F4,#5941F8,#6C3BF7,#9130F4);
@@ -202,6 +204,7 @@
   font-size: 40px;
 
 }
+
 .SectionTitle p.active {
   color: blue; 
 }
@@ -212,6 +215,64 @@
 .timeline {
   transition: all 0.3s ease; 
 }
+.SectionTitle p:nth-child(2){
+  position: relative;
+}
+
+
+.SectionTitle p:nth-child(2):before {
+  background: linear-gradient(84deg,#4646F9,#9130F4,#5941F8,#6C3BF7,#9130F4);
+  background-clip: text;
+  content: "Education Career";
+  position: absolute;
+  top: 0;
+  left:0;
+  width:0;
+  overflow: hidden;
+  color: transparent;
+  white-space: nowrap;
+  transition:all 1s linear;
+ 
+
+
+
+  
+}
+.SectionTitle p:nth-child(2):hover:before{
+  width:100%;
+
+
+}
+.SectionTitle p:nth-child(3){
+  position: relative;
+}
+.SectionTitle p:nth-child(3):before {
+  background: linear-gradient(84deg,#4646F9,#9130F4,#5941F8,#6C3BF7,#9130F4);
+  background-clip: text;
+  content: "Startup Incubation";
+  position: absolute;
+  top: 0;
+  left:0;
+  width:0;
+  overflow: hidden;
+  color: transparent;
+  white-space: nowrap;
+  transition: all 1s linear;
+
+
+
+
+  
+}
+.SectionTitle p:nth-child(3):hover:before{
+  width:100%;
+ 
+
+}
+
+
+
+
 
 
 
@@ -523,6 +584,7 @@
  .container{
   padding: 10px 0px;
  }
+
  
  
 
